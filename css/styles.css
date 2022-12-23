@@ -1,9 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-}
-#title {
-    background-color: #ff4c68;
-    color: #FFFFFF
+    text-align: center;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -17,8 +14,18 @@ h3 {
 p {
     color: #8f8f8f;
 }
+.invis {
+    visibility: hidden;
+}
 .container-fluid {
-    padding: 3% 15% 8%;
+    padding: 7% 15%;
+}
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
 }
 .navbar {
     padding: 0 0 4.5rem;
@@ -37,6 +44,10 @@ p {
 .download-btn {
     margin: 5% 3% 5% 0;
 }
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
 .title-img {
     width: 23%;
     margin-top: 2%;
@@ -45,13 +56,9 @@ p {
     right: 20%
 }
 #features {
-    padding: 13% 15%;
-    text-align: center;
-    background-color: #fff;
     position: relative;
 }
 .feature.box {
-    text-align: center;
     padding: 4.5%;
 }
 .icon {
@@ -62,22 +69,15 @@ p {
     color: #ff4c68;
 }
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
     background-color: #ef8172;
-    color: #fff
 }
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
-.carousel-item {
-    padding: 7% 15%;
-}
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 5%;
 }
 .press-logo {
@@ -86,24 +86,12 @@ p {
 }
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 .pricing-column {
     padding: 3% 2%;
 }
-#cta {
-    padding: 7% 15%;
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-}
 #cta h1 {
     font-size: 3rem;
-}
-#footer {
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #fff;
 }
 .foot-icons {
     margin: 20px 10px;
